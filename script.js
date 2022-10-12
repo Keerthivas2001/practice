@@ -1,22 +1,84 @@
-var ele=document.createElement("div");
-ele.setAttribute("class","container");
+/* <label for="first name">firstname</label><br>
+    <input type="text" name="firstname" id="firstname"> <br>
+    <label for="middle name">middlename</label><br>
+    <input type="text" name="middlename" id="middlename"> <br>
+    <label for="last name">lastname</label><br>
+    <input type="text" name="lastname" id="lastname"> <br></br> */
 
-var sp =document.createElement("div");
-sp.setAttribute("class","row");
+// function createlabel(tagname,attname,attvalue,content){
+//     var ele=document.createElement(tagname);
+//     ele.setAttribute(attname,attvalue);
+//     ele.innerHTML=content;
+//     return ele;
+
+// }
+// var l=createlabel("label","for","firstname","firstname");
+
+
+// function createinput(tagname,attname,attvalue,atname,atvalue){
+//     var ele=document.createElement(tagname);
+//     ele.setAttribute(attname,attvalue,atname,atvalue);
+//     return ele;
+
+// }
+// var i=createinput("input","text","firstname","id","firstname");
 
 
 
-var s=document.createElement("div");
-s.setAttribute("class","col");
-s.innerHTML="this is col";
-sp.append(s);
-ele.append(sp);
+// function createlabel1(tagname,attname,attvalue,content){
+//     var ele=document.createElement(tagname);
+//     ele.setAttribute(attname,attvalue);
+//     ele.innerHTML=content;
+//     return ele;
+
+// }
+// var l1=createlabel1("label","for","middlename","middlename");
+
+// function createinput1(tagname,attname,attvalue,atname,atvalue){
+//     var ele=document.createElement(tagname);
+//     ele.setAttribute(attname,attvalue,atname,atvalue);
+//     return ele;
+
+// }
+// var i1=createinput1("input","text","middlename","id","middlename");
 
 
-document.body.append(ele);
+// function createlabel2(tagname,attname,attvalue,content){
+//     var ele=document.createElement(tagname);
+//     ele.setAttribute(attname,attvalue);
+//     ele.innerHTML=content;
+//     return ele;
 
-/* <div class="container">
-    <div class="row">
-        <div class="col">this is col</div>
-    </div>
-</div> */
+// }
+// var l2=createlabel2("label","for","lastname","lastname");
+
+
+// function createinput2(tagname,attname,attvalue,atname,atvalue){
+//     var ele=document.createElement(tagname);
+//     ele.setAttribute(attname,attvalue,atname,atvalue);
+//     return ele;
+
+// }
+// var i=createinput2("input","text","lastname","id","lastname");
+
+
+
+function foo(){
+    var a=document.getElementById("firstname").value;
+    var b=document.getElementById("middlename").value;
+    var c=document.getElementById("lastname").value;
+    var d=document.getElementById("email").value;
+    var e=document.getElementById("password").value;
+
+    console.log(a,b,c,d,e);
+}
+
+
+
+
+
+
+
+
+
+
